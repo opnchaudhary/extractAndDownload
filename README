@@ -1,0 +1,6 @@
+To extract the files names and print it to the standard output you can just  use:
+python extractor.py file.txt
+and to write it to a file you can redirect it to a  file as:
+python extractor.py file.txt > fileNameContainingFile.txt
+also direct download can be achieved using:
+python extractAndDownload.py file.txt
