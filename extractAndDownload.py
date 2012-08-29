@@ -18,7 +18,7 @@ def grab_fileNames(file):
 		for line in open(file, 'r'):
 			found.update(fileName_pattern.findall(line))
 		for filenames in found:
-			os.system('wget '+filenames);
+			os.system('wget '+'https://beagle.whoi.edu/redmine/projects/ifcb-web/repository/revisions/203/raw/trunk/dipum_toolbox_2.0.1/'+filenames);
 			#print filenames
 if __name__ == '__main__':
 	grab_fileNames(sys.argv[1])
